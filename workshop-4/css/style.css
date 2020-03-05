@@ -109,9 +109,12 @@ header .container .search-wrapper >input:focus{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
+  
 }
 .posts .post-list .post-item img{
   width: 270px;
+  margin-bottom: 25px;
 }
 .container {
     display: flex;
