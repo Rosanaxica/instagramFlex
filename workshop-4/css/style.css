@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    align-items: center;
+}
+
+button, input {
+    outline: none;
+}
+
+header .container .search-wrapper>input {
+    height: 28px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.btn {
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 8px 18px;
+    background: #4090db;
+    color: #fff;
+    transition: .5s ease-in-out all;
+   
+}
+
+.btn.link {
+    background: transparent;
+    border-color: transparent;
+    color: #4090db;
+}
+
+.btn.outline {
+    border-color: #4090db;
+    background: transparent;
+    color: #4090db;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #f7cc94;
+    color:#4090db;
+
+}
+header .container .search-wrapper >input:focus{
+    border-color: #4090db;
+
+}
+#profile .container .avatar-wrapper img {
+    border-radius: 100%;
+}
+
+.profile .user-wrapper .user-title {
+    display: flex;
+}
+
+.profile .user-wrapper .username {
+    margin-right: 20px;
+}
+
+.profile .user-wrapper .user-description {
+    margin: 23px 0;
+}
+
+.profile .user-wrapper .follow-info {
+    display: flex;
+}
+
+.profile .user-wrapper .follow-info,
+.profile .user-wrapper .follow-info .info {
+    display: flex;
+}
+
+.profile .user-wrapper .follow-info .info {
+   margin-right: 25px;
+}
+.profile .user-wrapper .follow-info .info .qtd {
+    margin-right: 5px;
+ }
+
+ section#profile[class="profile"]{
+     margin: 50px 0;
+ }
+
+ .profile .container{
+     align-items: center;
+ }
+.posts .post-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.posts .post-list .post-item img{
+  width: 270px;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 880px;
+    max-width: 1000px;
+}
